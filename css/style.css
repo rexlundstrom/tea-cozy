@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tea-of-the-month {
+
+}
+
+.special-item {
+    height: 200px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+body {background-color: antiquewhite;}

@@ -11,7 +11,7 @@ body {
 nav {
     height: 69px;
     background-color: black;
-    text-decoration: underline;
+    border-bottom: 1px seashell;
     width: 100%;
     display: block;
     position: fixed;
@@ -30,14 +30,15 @@ nav {
     margin: 0 auto;
 }
 
-.navigation a {
+.navigation-bar a {
     height: 100%;
     display: table;
     float: left;
     padding-left: 0 20px;
+    margin: 0 .25em;
 }
 
-.navigation a li {
+.navigation-bar a li {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
@@ -45,23 +46,71 @@ nav {
     color: white;
 }
 
-.overlay-picture {
+.mission-container {
     background-image: url("img-mission-background.webp");
-    background-size: contain;
-    min-height: 40em;
+    background-position: center;
     background-repeat: no-repeat;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto;
     display: flex;
-    justify-content: center;
+}
+
+.text-over {
+    margin: auto;
+    background-color: #000000A0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#tea-of-the-month {
+
+}
+
+.special-item-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
-.tea-of-the-month {
 
-}
-
-.special-item {
+.special-item img {
     height: 200px;
     width: 300px;
+    padding: 10px;
     display: inline-flex;
     justify-content: flex-start;
+}
+
+.banner {
+    height: 500px;
+    width: 1200px;
+    margin: 40px auto auto;
+    padding-top: 85px;
+    background-image: url("img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.location {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    background-color: #000000A0;
+    margin: 50px 20px;
+    padding: 50px 0 0;
+    line-height: 50px;
+}
+
+footer {
+    line-height: 50px;
+    
+}
+
+.location-container {
+
 }
